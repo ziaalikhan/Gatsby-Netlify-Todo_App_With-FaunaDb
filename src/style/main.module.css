@@ -1,0 +1,42 @@
+body{
+    background-color: #99bdff;
+}
+.Heading >h3 {
+    font-size: 45px;
+    font-family: cursive;
+}
+
+.Main_Container {
+    margin: 0 auto;
+    text-align: center;
+}
+.TodoData {
+    text-align: center;
+}
+.Container {
+    display: flex;
+    justify-content: center;
+
+}
+.deleteBtn > h3{
+    margin-left: 60px;
+    cursor: pointer;
+    color: #1e1a8a;
+}
+
+
+.addBtn {
+    margin-top: 20px;
+    text-align: center;
+}
+.addBtn > button{
+    width: 120px;
+    height: 40px;
+    background-color: #1e1a8a;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+

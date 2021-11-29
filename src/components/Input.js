@@ -11,7 +11,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-export default function Input({ item, setItem }) {
+function Input({ item, setItem }) {
   const classes = useStyles();
 
   return (
@@ -28,3 +28,5 @@ export default function Input({ item, setItem }) {
     </div>
   );
 }
+
+export default Input;
